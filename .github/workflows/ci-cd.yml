@@ -50,7 +50,7 @@ jobs:
       - name: Deploy to shinyapps.io
         if: github.ref == 'refs/heads/master'
         env:
-          SHINYAPPS_ACCOUNT: ${{ diwashrestha}}
-          SHINYAPPS_TOKEN: ${{ E6341425D3EF2166DDB53E7A122AC379 }}
-          SHINYAPPS_SECRET: ${{ YGJz1M6NMysYvkFMM6qRLKl+XXdUMX6Mm5ePelOC }}
+          SHINYAPPS_ACCOUNT: ${{ 'diwashrestha'}}
+          SHINYAPPS_TOKEN: ${{ 'E6341425D3EF2166DDB53E7A122AC379' }}
+          SHINYAPPS_SECRET: ${{ 'YGJz1M6NMysYvkFMM6qRLKl+XXdUMX6Mm5ePelOC' }}
         run: Rscript deploy/deploy-shinyapps.R
