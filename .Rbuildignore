@@ -10,4 +10,3 @@ $run_dev.*
 ^app\.R$
 ^rsconnect$
 ^\.github$
-^deploy$
