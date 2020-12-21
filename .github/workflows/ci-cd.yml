@@ -12,7 +12,7 @@ jobs:
 
       - uses: actions/checkout@v2
 
-      - uses: r-lib/actions/setup-r@main
+      - uses: r-lib/actions/setup-r@master
 
       - name: Query dependencies
         shell: Rscript {0}
